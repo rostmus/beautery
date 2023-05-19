@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded',  () => {
     const thumbSwiper = new Swiper('.js-thumb-swiper', {
         spaceBetween: 0,
         slideActiveClass: 'active',
-        slidesPerView: 4,
+        slidesPerView: 'auto',
     })
 
     const mainSwiper = new Swiper('.js-swiper', {
@@ -65,6 +65,8 @@ document.addEventListener('DOMContentLoaded',  () => {
         }
     });
 
+    const video = document.querySelector('.js-video');
+    video.play();
     //popup
     const popupOpenButtons = document.querySelectorAll('.js-popup-open');
     const popup = document.querySelector('.js-popup');
@@ -115,11 +117,6 @@ document.addEventListener('DOMContentLoaded',  () => {
             scrollBlock.classList.add(activeClass);
         } else {
             scrollBlock.classList.remove(activeClass);
-        }
-        if (bodyScrollNumber < 0) {
-            scrollBlock.classList.add('fixed');
-        } else {
-            scrollBlock.classList.remove('fixed');
         }
     });
 
