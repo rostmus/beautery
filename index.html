@@ -16,37 +16,37 @@
                 <div class="header__line">
                     <div class="header__item">
                         <div class="header__item-ic">
-                            <svg><use xlink:href="./media/svg/ic_check.svg#ic_check"></use></svg>
+                            <svg><use xlink:href="./media/svg/ic_heart.svg#ic_heart"></use></svg>
                         </div>
                         <div class="header__item-text">Маркетплейс косметики</div>
                     </div>
                     <div class="header__item">
                         <div class="header__item-ic">
-                            <svg><use xlink:href="./media/svg/ic_check.svg#ic_check"></use></svg>
+                            <svg><use xlink:href="./media/svg/ic_heart.svg#ic_heart"></use></svg>
                         </div>
                         <div class="header__item-text">Реферальная платформа для экспертов и клиник</div>
                     </div>
                     <div class="header__item">
                         <div class="header__item-ic">
-                            <svg><use xlink:href="./media/svg/ic_check.svg#ic_check"></use></svg>
+                            <svg><use xlink:href="./media/svg/ic_heart.svg#ic_heart"></use></svg>
                         </div>
                         <div class="header__item-text">Платформа общения эксперта и пациента</div>
                     </div>
                     <div class="header__item">
                         <div class="header__item-ic">
-                            <svg><use xlink:href="./media/svg/ic_check.svg#ic_check"></use></svg>
+                            <svg><use xlink:href="./media/svg/ic_heart.svg#ic_heart"></use></svg>
                         </div>
                         <div class="header__item-text">Рейтинги товаров от косметологов</div>
                     </div>
                     <div class="header__item">
                         <div class="header__item-ic">
-                            <svg><use xlink:href="./media/svg/ic_check.svg#ic_check"></use></svg>
+                            <svg><use xlink:href="./media/svg/ic_heart.svg#ic_heart"></use></svg>
                         </div>
                         <div class="header__item-text">Beautinder</div>
                     </div>
                     <div class="header__item">
                         <div class="header__item-ic">
-                            <svg><use xlink:href="./media/svg/ic_check.svg#ic_check"></use></svg>
+                            <svg><use xlink:href="./media/svg/ic_heart.svg#ic_heart"></use></svg>
                         </div>
                         <div class="header__item-text">Персональные рекомендации и AI</div>
                     </div>
@@ -93,19 +93,21 @@
                         </button>
                     </div>
                     <div class="main-block__right">
-                        <div class="main-block__phone-first">
-                            <video muted loop playsinline src="./media/video/BeauteryLand.mp4" class="js-video">
-                                <source data-src="./media/video/BeauteryLand.mp4" type="video/mp4"> <!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
-                                <source data-src="./media/video/i8.webm" type="video/webm"> <!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
-                                <source data-src="./media/video/i8.ogv" type="video/ogg"> <!-- Ogg/Vorbis для старых версий браузеров Firefox и Opera -->
-                                <object data-data="./media/video/i8.swf" type="application/x-shockwave-flash"> <!-- добавляем видеоконтент для устаревших браузеров, в которых нет поддержки элемента video -->
-                                    <param name="movie" data-value="./documents/video/i8.swf">
-                                </object>
-                            </video>
-<!--                            <img src="./media/img/main_phone_first.png" alt="">-->
-                        </div>
-                        <div class="main-block__phone-last">
-                            <img src="./media/img/main_phone_last.png" alt="">
+                        <div class="main-block__right-wrapper">
+                            <div class="main-block__phone-first">
+                                <video muted loop playsinline src="./media/video/BeauteryLand.mp4" class="js-video">
+                                    <source data-src="./media/video/BeauteryLand.mp4" type="video/mp4"> <!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
+                                    <source data-src="./media/video/i8.webm" type="video/webm"> <!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
+                                    <source data-src="./media/video/i8.ogv" type="video/ogg"> <!-- Ogg/Vorbis для старых версий браузеров Firefox и Opera -->
+                                    <object data-data="./media/video/i8.swf" type="application/x-shockwave-flash"> <!-- добавляем видеоконтент для устаревших браузеров, в которых нет поддержки элемента video -->
+                                        <param name="movie" data-value="./documents/video/i8.swf">
+                                    </object>
+                                </video>
+                                <!--                            <img src="./media/img/main_phone_first.png" alt="">-->
+                            </div>
+                            <div class="main-block__phone-last">
+                                <img src="./media/img/main_phone_last.png" alt="">
+                            </div>
                         </div>
                         <div class="main-block__start-logo">
                             <img src="./media/img/main_start_logo.png" alt="">
@@ -130,6 +132,7 @@
                 </div>
             </div>
         </div>
+
         <div class="description block-width js-tab">
             <div class="description__title-crown">
                 <svg><use xlink:href="./media/svg/ic_crown.svg#ic_crown"></use></svg>
@@ -177,7 +180,7 @@
             </div>
             <div class="description__tabs swiper js-swiper">
                 <div class="swiper-wrapper">
-                    <div class="description-tab swiper-slide js-tab-item">
+                    <div class="description-tab first swiper-slide js-tab-item">
                         <div class="description-tab__left">
                             <div class="description-tab__block">
                                 <div class="description-tab__title">
@@ -186,30 +189,32 @@
                                     </div>
                                     <div>Маркетплейс</div>
                                 </div>
-                                <div class="description-tab__item">
-                                    <div class="description-tab__check">
-                                        <svg><use xlink:href="./media/svg/ic_check_double.svg#ic_check_double"></use></svg>
+                                <div class="description-tab__list">
+                                    <div class="description-tab__item">
+                                        <div class="description-tab__check">
+                                            <svg><use xlink:href="./media/svg/ic_check_double.svg#ic_check_double"></use></svg>
+                                        </div>
+                                        <div>Рейтинги товаров от&nbsp;космтеологов (Beautychart)</div>
                                     </div>
-                                    <div>Рейтинги товаров от&nbsp;космтеологов (Beautychart)</div>
-                                </div>
-                                <div class="description-tab__item">
-                                    <div class="description-tab__check">
-                                        <svg><use xlink:href="./media/svg/ic_check_double.svg#ic_check_double"></use></svg>
+                                    <div class="description-tab__item">
+                                        <div class="description-tab__check">
+                                            <svg><use xlink:href="./media/svg/ic_check_double.svg#ic_check_double"></use></svg>
+                                        </div>
+                                        <div>Умные механики продвижения: CPA модель с&nbsp;выбором ротации, наборы от&nbsp;селлера, мотивация косметологов, etc.</div>
                                     </div>
-                                    <div>Умные механики продвижения: CPA модель с&nbsp;выбором ротации, наборы от&nbsp;селлера, мотивация косметологов, etc.</div>
-                                </div>
-                                <div class="description-tab__item">
-                                    <div class="description-tab__check">
-                                        <svg><use xlink:href="./media/svg/ic_check_double.svg#ic_check_double"></use></svg>
+                                    <div class="description-tab__item">
+                                        <div class="description-tab__check">
+                                            <svg><use xlink:href="./media/svg/ic_check_double.svg#ic_check_double"></use></svg>
+                                        </div>
+                                        <div>&laquo;Паспорт бьютификации&raquo;&nbsp;&mdash; AI&nbsp;алгоритм рекомендаций (на&nbsp;основании оказанной услуги, типа кожи, истории покупок)</div>
                                     </div>
-                                    <div>&laquo;Паспорт бьютификации&raquo;&nbsp;&mdash; AI&nbsp;алгоритм рекомендаций (на&nbsp;основании оказанной услуги, типа кожи, истории покупок)</div>
                                 </div>
                             </div>
-                            <button type="button" class="main-block__button js-popup-open">
+                            <button type="button" class="main-block__button desktop js-popup-open">
                                 <span>Начать продавать</span>
                                 <span class="main-block__button-ic">
-                                <svg><use xlink:href="./media/svg/ic_arrow.svg#ic_arrow"></use></svg>
-                            </span>
+                                    <svg><use xlink:href="./media/svg/ic_arrow.svg#ic_arrow"></use></svg>
+                                </span>
                             </button>
                         </div>
                         <div class="description-tab__right">
@@ -220,9 +225,23 @@
                                 <img src="./media/img/tab1_mobile2.png" alt="">
                             </div>
                         </div>
+                        <button type="button" class="main-block__button mobile js-popup-open">
+                            <span>Начать продавать</span>
+                            <span class="main-block__button-ic">
+                                <svg><use xlink:href="./media/svg/ic_arrow.svg#ic_arrow"></use></svg>
+                            </span>
+                        </button>
+                        <div class="description-tab__background">
+                            <button type="button" class="description-tab__background-button js-swiper-item-open">
+                                <span>Развернуть</span>
+                                <span class="description-tab__background-button--ic">
+                                   <svg><use xlink:href="./media/svg/ic_arrow_down.svg#ic_arrow_down"></use></svg>
+                                </span>
+                            </button>
+                        </div>
                     </div>
 
-                    <div class="description-tab swiper-slide  js-tab-item">
+                    <div class="description-tab fourth swiper-slide  js-tab-item">
                         <div class="description-tab__left">
                             <div class="description-tab__block">
                                 <div class="description-tab__title">
@@ -231,26 +250,28 @@
                                     </div>
                                     <div>Профиль косметолога</div>
                                 </div>
-                                <div class="description-tab__item">
-                                    <div class="description-tab__check">
-                                        <svg><use xlink:href="./media/svg/ic_check_double.svg#ic_check_double"></use></svg>
+                                <div class="description-tab__list">
+                                    <div class="description-tab__item">
+                                        <div class="description-tab__check">
+                                            <svg><use xlink:href="./media/svg/ic_check_double.svg#ic_check_double"></use></svg>
+                                        </div>
+                                        <div>Идеальный профиль эксперта (bio, контакты, образование, услуги)</div>
                                     </div>
-                                    <div>Идеальный профиль эксперта (bio, контакты, образование, услуги)</div>
-                                </div>
-                                <div class="description-tab__item">
-                                    <div class="description-tab__check">
-                                        <svg><use xlink:href="./media/svg/ic_check_double.svg#ic_check_double"></use></svg>
+                                    <div class="description-tab__item">
+                                        <div class="description-tab__check">
+                                            <svg><use xlink:href="./media/svg/ic_check_double.svg#ic_check_double"></use></svg>
+                                        </div>
+                                        <div>Сбор кастомных корзин для пациентов и&nbsp;аналитика</div>
                                     </div>
-                                    <div>Сбор кастомных корзин для пациентов и&nbsp;аналитика</div>
-                                </div>
-                                <div class="description-tab__item">
-                                    <div class="description-tab__check">
-                                        <svg><use xlink:href="./media/svg/ic_check_double.svg#ic_check_double"></use></svg>
+                                    <div class="description-tab__item">
+                                        <div class="description-tab__check">
+                                            <svg><use xlink:href="./media/svg/ic_check_double.svg#ic_check_double"></use></svg>
+                                        </div>
+                                        <div>Информация о&nbsp;новинках брендов и&nbsp;программах (online курсы)</div>
                                     </div>
-                                    <div>Информация о&nbsp;новинках брендов и&nbsp;программах (online курсы)</div>
                                 </div>
                             </div>
-                            <button type="button" class="main-block__button js-popup-open">
+                            <button type="button" class="main-block__button desktop js-popup-open">
                                 <span>Начать продавать</span>
                                 <span class="main-block__button-ic">
                                 <svg><use xlink:href="./media/svg/ic_arrow.svg#ic_arrow"></use></svg>
@@ -265,9 +286,23 @@
                                 <img src="./media/img/tab2_mobile2.png" alt="">
                             </div>
                         </div>
+                        <button type="button" class="main-block__button mobile js-popup-open">
+                            <span>Начать продавать</span>
+                            <span class="main-block__button-ic">
+                                <svg><use xlink:href="./media/svg/ic_arrow.svg#ic_arrow"></use></svg>
+                            </span>
+                        </button>
+                        <div class="description-tab__background">
+                            <button type="button" class="description-tab__background-button js-swiper-item-open">
+                                <span>Развернуть</span>
+                                <span class="description-tab__background-button--ic">
+                                   <svg><use xlink:href="./media/svg/ic_arrow_down.svg#ic_arrow_down"></use></svg>
+                                </span>
+                            </button>
+                        </div>
                     </div>
 
-                    <div class="description-tab swiper-slide  js-tab-item">
+                    <div class="description-tab swiper-slide second js-tab-item">
                         <div class="description-tab__left">
                             <div class="description-tab__block">
                                 <div class="description-tab__title">
@@ -276,26 +311,28 @@
                                     </div>
                                     <div>Реферальная программа</div>
                                 </div>
-                                <div class="description-tab__item">
-                                    <div class="description-tab__check">
-                                        <svg><use xlink:href="./media/svg/ic_check_double.svg#ic_check_double"></use></svg>
+                                <div class="description-tab__list">
+                                    <div class="description-tab__item">
+                                        <div class="description-tab__check">
+                                            <svg><use xlink:href="./media/svg/ic_check_double.svg#ic_check_double"></use></svg>
+                                        </div>
+                                        <div>Универсальная модель для любых товаров beauty &amp;&nbsp;health</div>
                                     </div>
-                                    <div>Универсальная модель для любых товаров beauty &amp;&nbsp;health</div>
-                                </div>
-                                <div class="description-tab__item">
-                                    <div class="description-tab__check">
-                                        <svg><use xlink:href="./media/svg/ic_check_double.svg#ic_check_double"></use></svg>
+                                    <div class="description-tab__item">
+                                        <div class="description-tab__check">
+                                            <svg><use xlink:href="./media/svg/ic_check_double.svg#ic_check_double"></use></svg>
+                                        </div>
+                                        <div>Постоянный пассивный доход от&nbsp;продаж реферала</div>
                                     </div>
-                                    <div>Постоянный пассивный доход от&nbsp;продаж реферала</div>
-                                </div>
-                                <div class="description-tab__item">
-                                    <div class="description-tab__check">
-                                        <svg><use xlink:href="./media/svg/ic_check_double.svg#ic_check_double"></use></svg>
+                                    <div class="description-tab__item">
+                                        <div class="description-tab__check">
+                                            <svg><use xlink:href="./media/svg/ic_check_double.svg#ic_check_double"></use></svg>
+                                        </div>
+                                        <div>Пороговая шкала мотивации и&nbsp;конкурсы от&nbsp;селлеров</div>
                                     </div>
-                                    <div>Пороговая шкала мотивации и&nbsp;конкурсы от&nbsp;селлеров</div>
                                 </div>
                             </div>
-                            <button type="button" class="main-block__button js-popup-open">
+                            <button type="button" class="main-block__button desktop js-popup-open">
                                 <span>Начать продавать</span>
                                 <span class="main-block__button-ic">
                                 <svg><use xlink:href="./media/svg/ic_arrow.svg#ic_arrow"></use></svg>
@@ -310,9 +347,23 @@
                                 <img src="./media/img/tab3_mobile2.png" alt="">
                             </div>
                         </div>
+                        <button type="button" class="main-block__button mobile js-popup-open">
+                            <span>Начать продавать</span>
+                            <span class="main-block__button-ic">
+                                <svg><use xlink:href="./media/svg/ic_arrow.svg#ic_arrow"></use></svg>
+                            </span>
+                        </button>
+                        <div class="description-tab__background">
+                            <button type="button" class="description-tab__background-button js-swiper-item-open">
+                                <span>Развернуть</span>
+                                <span class="description-tab__background-button--ic">
+                                   <svg><use xlink:href="./media/svg/ic_arrow_down.svg#ic_arrow_down"></use></svg>
+                                </span>
+                            </button>
+                        </div>
                     </div>
 
-                    <div class="description-tab swiper-slide js-tab-item">
+                    <div class="description-tab third swiper-slide js-tab-item">
                         <div class="description-tab__left">
                             <div class="description-tab__block">
                                 <div class="description-tab__title">
@@ -321,36 +372,38 @@
                                     </div>
                                     <div>Рекомендация косметолога</div>
                                 </div>
-                                <div class="description-tab__item">
-                                    <div class="description-tab__check">
-                                        <svg><use xlink:href="./media/svg/ic_check_double.svg#ic_check_double"></use></svg>
+                                <div class="description-tab__list">
+                                    <div class="description-tab__item">
+                                        <div class="description-tab__check">
+                                            <svg><use xlink:href="./media/svg/ic_check_double.svg#ic_check_double"></use></svg>
+                                        </div>
+                                        <div>AI&nbsp;подбор корзины при указании типа услуги</div>
                                     </div>
-                                    <div>AI&nbsp;подбор корзины при указании типа услуги</div>
-                                </div>
-                                <div class="description-tab__item">
-                                    <div class="description-tab__check">
-                                        <svg><use xlink:href="./media/svg/ic_check_double.svg#ic_check_double"></use></svg>
+                                    <div class="description-tab__item">
+                                        <div class="description-tab__check">
+                                            <svg><use xlink:href="./media/svg/ic_check_double.svg#ic_check_double"></use></svg>
+                                        </div>
+                                        <div>Возможность ротации по&nbsp;ценовым сегментам</div>
                                     </div>
-                                    <div>Возможность ротации по&nbsp;ценовым сегментам</div>
-                                </div>
-                                <div class="description-tab__item">
-                                    <div class="description-tab__check">
-                                        <svg><use xlink:href="./media/svg/ic_check_double.svg#ic_check_double"></use></svg>
+                                    <div class="description-tab__item">
+                                        <div class="description-tab__check">
+                                            <svg><use xlink:href="./media/svg/ic_check_double.svg#ic_check_double"></use></svg>
+                                        </div>
+                                        <div>Сценарии реактивами после отправки корзины</div>
                                     </div>
-                                    <div>Сценарии реактивами после отправки корзины</div>
-                                </div>
-                                <div class="description-tab__item">
-                                    <div class="description-tab__check">
-                                        <svg><use xlink:href="./media/svg/ic_check_double.svg#ic_check_double"></use></svg>
+                                    <div class="description-tab__item">
+                                        <div class="description-tab__check">
+                                            <svg><use xlink:href="./media/svg/ic_check_double.svg#ic_check_double"></use></svg>
+                                        </div>
+                                        <div>Механики продажи сразу через&nbsp;QR</div>
                                     </div>
-                                    <div>Механики продажи сразу через&nbsp;QR</div>
                                 </div>
                             </div>
-                            <button type="button" class="main-block__button js-popup-open">
+                            <button type="button" class="main-block__button desktop js-popup-open">
                                 <span>Начать продавать</span>
                                 <span class="main-block__button-ic">
-                                <svg><use xlink:href="./media/svg/ic_arrow.svg#ic_arrow"></use></svg>
-                            </span>
+                                    <svg><use xlink:href="./media/svg/ic_arrow.svg#ic_arrow"></use></svg>
+                                </span>
                             </button>
                         </div>
                         <div class="description-tab__right">
@@ -360,6 +413,20 @@
                             <div class="description-tab__mobile">
                                 <img src="./media/img/tab3_mobile2.png" alt="">
                             </div>
+                        </div>
+                        <button type="button" class="main-block__button mobile js-popup-open">
+                            <span>Начать продавать</span>
+                            <span class="main-block__button-ic">
+                                <svg><use xlink:href="./media/svg/ic_arrow.svg#ic_arrow"></use></svg>
+                            </span>
+                        </button>
+                        <div class="description-tab__background">
+                            <button type="button" class="description-tab__background-button js-swiper-item-open">
+                                <span>Развернуть</span>
+                                <span class="description-tab__background-button--ic">
+                                   <svg><use xlink:href="./media/svg/ic_arrow_down.svg#ic_arrow_down"></use></svg>
+                                </span>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -406,16 +473,10 @@
                     </div>
                     <div class="info__bottom block-width mobile">
                         <div class="info__name">Beautery</div>
-                        <a href="mailto:hello@beautery.ru" class="info__mail">hello@beautery.ru</a>
+                        <a href="mailto:hello@beautery.ru" class="info__mail">info@beautery.ru</a>
                     </div>
                     <div class="info__beauty">
                         <img src="./media/img/girl.png" alt="">
-                    </div>
-                    <div class="info__footnote">
-                        <svg><use xlink:href="./media/svg/fire.svg#fire"></use></svg>
-                        <span>
-                            Первые селлеры <span class="fw-500">выйдут в ТОП ротации</span> и&nbsp;поучаствуют в&nbsp;продвижении запуска на&nbsp;<span class="fw-500">80+&nbsp;млн. охвата в&nbsp;соц. сетях</span>
-                        </span>
                     </div>
                 </div>
                 <div class="info__right">
@@ -428,7 +489,7 @@
             </div>
             <div class="info__bottom block-width desktop">
                 <div class="info__name">Beautery</div>
-                <a href="mailto:hello@beautery.ru" class="info__mail">hello@beautery.ru</a>
+                <a href="mailto:hello@beautery.ru" class="info__mail">info@beautery.ru</a>
                 <div class="info__last info__name">Beautery</div>
             </div>
             <div class="info__beauty">
@@ -437,13 +498,15 @@
             <div class="info__footnote">
                 <svg><use xlink:href="./media/svg/fire.svg#fire"></use></svg>
                 <span>
-                    Первые селлеры <span class="fw-500">выйдут в ТОП ротации</span> и&nbsp;поучаствуют в&nbsp;продвижении запуска на&nbsp;<span class="fw-500">80+&nbsp;млн. охвата в&nbsp;соц. сетях</span>
+                    Первые селлеры выйдут в&nbsp;ТОП ротации и&nbsp;поучаствуют в&nbsp;продвижении запуска&nbsp;на
+                    <div class="info__footnote-bold">80&nbsp;000&nbsp;000</div>
+                    Охвата в&nbsp;соц. сетях
                 </span>
             </div>
         </div>
     </main>
     <footer class="footer">
-        <div class="footer__item">Создано в Business Mentor</div>
+        <div class="footer__item">Создано в <a target="_blank" href="https://businessmentor.ru/">Business Mentor</div>
         <div class="popup js-popup">
             <div class="popup__wrapper js-popup-wrapper">
                 <span class="popup__close js-popup-close">
